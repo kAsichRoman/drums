@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	background: url('carbon.png');
+}
+
+main {
+	width: 656px;
+	background: #424242;
+	margin: 100px auto 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+main div {
+	width: 35px;
+	height: 35px;
+	background: #202020;
+	float: left;
+	border-radius: 6px;
+	margin: 1px;
+	border: 2px solid #181818;
+}
+
+main div:hover {
+	box-shadow: 0 0 5px #aaa;
+
+}
+
+main div:active {
+	background: white;
+}
+
+.active_button {
+    background: royalblue;
+}
